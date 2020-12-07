@@ -1,0 +1,129 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "5b7ec67f-70cd-40d4-b307-0fd238780929": {
+        "id": "5b7ec67f-70cd-40d4-b307-0fd238780929",
+        "parent": null,
+        "name": "indu_dec7-948.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "indu_dec7-948.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "indudec7948"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigsachithraAPInamedvhhany",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1607315057568,
+        "testCases": {
+          "297e391a-c595-4a3e-bb24-9cbcb9619e04": {
+            "id": "297e391a-c595-4a3e-bb24-9cbcb9619e04",
+            "name": "Test event",
+            "functionId": "5b7ec67f-70cd-40d4-b307-0fd238780929",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      }
+    },
+    "openFiles": [
+      "5b7ec67f-70cd-40d4-b307-0fd238780929"
+    ],
+    "currentFileId": "5b7ec67f-70cd-40d4-b307-0fd238780929",
+    "resources": {
+      "apigsachithraAPInamedvhhany": {
+        "name": "apigsachithraAPInamedvhhany",
+        "type": "API_GATEWAY",
+        "config": {
+          "apiType": 1,
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 0,
+          "resourceName": "dv/hh",
+          "resourcePath": "/dv/hh",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "PROD",
+          "mode": 1
+        }
+      },
+      "s3induuuu": {
+        "name": "s3induuuu",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "name": "induuuu"
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": "CloudFormation",
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.6.1",
+    "projectName": "indu_dec7-948",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-2",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1607315335261
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "indu_dec7-948",
+      "url": "https://github.com/Indunil1992/indu_dec7-948"
+    }
+  }
+}
